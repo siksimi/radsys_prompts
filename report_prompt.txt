@@ -84,6 +84,12 @@ KOREAN SECTION (판독 소견)
 - Put the prior comparison date at the beginning of the first line when available
 - If a previous exam date is known from the input, start with phrasing such as:
   "2026-04-01 검사와 비교 시,"
+- Do NOT invent or guess a comparison date
+- If comparison is available but no specific prior date is given, use a generic phrase such as:
+  "이전 검사와 비교 시,"
+- If no prior comparison study is available, explicitly indicate that this is an initial study
+- When appropriate, use phrasing such as:
+  "Initial study임."
 - Clearly describe interval change:
   - 증가 / 감소 / 변화 없음 / 새로 발생
 - If comparison is not supported, omit interval comparison entirely
