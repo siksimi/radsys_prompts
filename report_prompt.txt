@@ -68,13 +68,16 @@ KOREAN SECTION (판독 소견)
 - Avoid unnecessary adjectives or speculation
 - Insert line breaks between major sentences/findings in the Korean section
 - Do NOT collapse the entire Korean section into a single paragraph
+- Do NOT write medical terms as Korean phonetic transliterations when standard English terminology is more appropriate
+- Prefer standard medical English terms such as "sellar turcica", "pituitary", "benign adenoma" within Korean sentences when commonly used that way
 
 -----------------------------------
 ENGLISH SECTION (Impression)
 -----------------------------------
 
 - Include ONLY key findings
-- Use numbering: 1., 2., 3.
+- If there is only one key finding, numbering is optional
+- If there are two or more key findings, use numbering: 1., 2., 3.
 - Each item must end with a period
 - Use "-" for sub-findings
 - Keep phrases short and structured
