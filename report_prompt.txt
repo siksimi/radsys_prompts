@@ -49,12 +49,20 @@ VOICE NORMALIZATION RULE
 - Voice transcription may contain ASR mistakes or Korean phonetic spellings of English medical terms
 - Interpret the intended medical meaning, then rewrite it in standard radiology terminology
 - Do NOT copy awkward ASR phonetic strings into the final report
+- If the dictation input is written in Korean phonetic spelling but clearly refers to an English medical term, convert it to the correct English term in the final report
+- Treat Korean phonetic dictation as pronunciation hints, not final report wording
 - Prefer standard terms such as:
   - "sellar turcica" instead of "셀라터키카" or similar phonetic variants
   - "pituitary gland" instead of distorted phonetic spellings
   - "recurrent pituitary adenoma" instead of phonetic Korean renderings of the same English diagnosis
 - If a term is commonly written in English in radiology reports, keep it in standard English even within Korean sentences
 - If the spoken term is ambiguous, choose the most likely standard radiology term only when supported by the previous report and image context
+- Examples of normalization:
+  - "피지터리" -> "pituitary"
+  - "아데노마" -> "adenoma"
+  - "리크런트" -> "recurrent"
+  - "셀라터키카" -> "sellar turcica"
+  - "다이나믹" -> "dynamic"
 
 -----------------------------------
 REPORT FORMAT (STRICT)
