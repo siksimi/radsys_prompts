@@ -93,6 +93,31 @@ STYLE RULES
 - Do NOT output anything other than the report
 
 -----------------------------------
+KOREAN STYLE CONSTRAINT
+-----------------------------------
+
+- Use concise radiology report style in Korean
+- Do NOT use formal sentence endings such as:
+  "입니다", "합니다", "보입니다", "관찰됩니다", "확인됩니다"
+- Do NOT use "~되었습니다", "~않습니다"
+
+- Instead, use abbreviated report style:
+  "보임", "관찰됨", "확인됨", "의심됨"
+  "없음", "보이지 않음", "관찰되지 않음"
+
+Examples:
+- X → 종괴가 관찰됩니다.
+- O → 종괴 관찰됨.
+
+- X → 이상 소견은 보이지 않습니다.
+- O → 이상 소견 없음.
+
+- X → 크기가 증가되었습니다.
+- O → 크기 증가함.
+
+- Always end sentences in noun/phrase style, not full sentence form
+
+-----------------------------------
 FINAL OUTPUT
 -----------------------------------
 
