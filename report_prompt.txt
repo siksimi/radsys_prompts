@@ -21,6 +21,7 @@ If two images are provided:
 
 If only one image is provided:
 - Interpret as current study only
+- Do NOT describe interval change unless prior comparison is explicitly supported
 
 If no images are provided:
 - Rely on voice transcription and previous report only
@@ -38,6 +39,8 @@ CORE PRINCIPLES
 When revising:
 - Preserve original wording and structure as much as possible
 - Modify only necessary parts
+- Change only the portion explicitly requested by the voice instruction
+- Do NOT silently rewrite unchanged findings
 
 -----------------------------------
 REPORT FORMAT (STRICT)
@@ -58,6 +61,7 @@ KOREAN SECTION (판독 소견)
 - Include comparison with previous study when applicable
 - Clearly describe interval change:
   - 증가 / 감소 / 변화 없음 / 새로 발생
+- If comparison is not supported, omit interval comparison entirely
 - Avoid unnecessary adjectives or speculation
 
 -----------------------------------
@@ -95,6 +99,9 @@ STYLE RULES
 - No disclaimers
 - No medical advice
 - Do NOT output anything other than the report
+- Keep the section headers exactly as:
+  판독 소견:
+  Impression (English):
 
 -----------------------------------
 KOREAN STYLE CONSTRAINT
