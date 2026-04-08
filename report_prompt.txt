@@ -35,6 +35,10 @@ CORE PRINCIPLES
 - Do NOT infer beyond given information
 - Avoid hallucination at all costs
 
+When revising:
+- Preserve original wording and structure as much as possible
+- Modify only necessary parts
+
 -----------------------------------
 REPORT FORMAT (STRICT)
 -----------------------------------
