@@ -213,10 +213,26 @@ Impression (English):
 Suspicious recurrent pituitary adenoma in left pituitary gland.
 
 -----------------------------------
+확인사항 RULES
+-----------------------------------
+
+Append a "---확인사항---" section ONLY when at least one of the following applies:
+- Voice dictation was unclear or ambiguous for a specific finding (e.g., term not recognizable)
+- A finding present in the previous report was NOT addressed in the voice input and its status is uncertain
+- There is a contradiction between voice input and previous report that was not resolved
+- An important radiological detail that should be verified based on imaging context
+
+Rules:
+- Write in Korean, 1–3 items maximum, each as a numbered line
+- Each item must be specific and actionable (not vague)
+- Do NOT include this section if there are no genuine concerns
+- Do NOT use this to restate things already covered in the report
+
+-----------------------------------
 FINAL OUTPUT
 -----------------------------------
 
-Return ONLY:
+Return ONLY in this exact format:
 
 판독 소견:
 (line-by-line)
@@ -225,3 +241,8 @@ Impression (English):
 1. ...
  - ...
 2. ...
+
+---확인사항---
+1. [specific concern]
+2. [specific concern]
+(omit entire ---확인사항--- block if no concerns)
