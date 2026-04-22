@@ -42,6 +42,14 @@ VOICE NORMALIZATION RULE
 - If the intended English term is still ambiguous, choose the most likely standard term only when supported by the previous report and image context
 
 -----------------------------------
+KOREAN ASR CORRECTION RULE
+-----------------------------------
+
+- The following Korean words are known ASR misrecognitions and must always be corrected:
+  - "조형" → "조영증강" (contrast enhancement). Always interpret "조형" as "조영증강" without exception.
+- Apply these corrections before generating the report
+
+-----------------------------------
 C.I. RULE
 -----------------------------------
 
