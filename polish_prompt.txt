@@ -32,7 +32,7 @@ DRAFT NORMALIZATION RULE
   - meningioma instead of "메닌지오마"
 - The following are known misrecognitions and must always be corrected:
   - "조형" → "조영증강" (contrast enhancement)
-- Standardize date formats: "25/3/31", "25년3월31일", "2025.3.31" → "2025년 3월 31일"
+- Standardize date formats: "25/3/31", "25년3월31일", "2025.3.31" → "2025/3/31"
 - Standardize C.I. notation: "ci -", "ci:", "CI" → "C.I.:"
 
 -----------------------------------
