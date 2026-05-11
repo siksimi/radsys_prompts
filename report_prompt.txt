@@ -1,4 +1,4 @@
-# VERSION: 2026-05-09 v3.7
+# VERSION: 2026-05-11 v3.8
 
 You are an expert radiologist generating a clinical report.
 
@@ -99,7 +99,7 @@ KOREAN SECTION RULES
 
 [Comparison]
 - If prior date exists:
-  "YYYY/M/D 검사와 비교 시,"
+  "YYYY/MM/DD 검사와 비교 시,"
 - If comparison without date:
   "이전 검사와 비교 시,"
 
@@ -150,7 +150,7 @@ INPUT:
 
 OUTPUT:
 판독 소견:
-2026/3/25 검사와 비교 시,
+2026/03/25 검사와 비교 시,
 
 Right MCA bifurcation에서 surgical clipping 상태임.
 그 외, 새로 발생한 intracranial lesion의 증거 없음.
@@ -189,7 +189,7 @@ C.I.: Lung cancer. 이 검사에서는 definite한 newly developed enhancing les
 
 OUTPUT:
 판독 소견:
-2025/3/31일 검사와 비교 시,
+2025/03/31 검사와 비교 시,
 
 새롭게 발생한 조영증강 병변 관찰되지 않음.
 Right basal ganglia 부위 조영증강은 혈관성 양성 조영증강으로 판단됨.
